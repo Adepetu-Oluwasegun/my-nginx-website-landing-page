@@ -1,4 +1,4 @@
-# Altschool Project: Web Application Landing Page
+# Altschool Project
 
 ## Project Overview
 This project involves provisioning a Linux server on AWS, installing a web server (Nginx), and deploying a simple HTML landing page to demonstrate my skills. The goal is to create a landing page with your name, project details, and a bio, accessible via the public IP of the server.
