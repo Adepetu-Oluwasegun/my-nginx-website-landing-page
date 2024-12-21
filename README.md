@@ -9,7 +9,8 @@ This project involves provisioning a Linux server on AWS, installing a web serve
 - [HTML Page Deployment](#html-page-deployment)
 - [Networking and Security](#networking-and-security)
 - [Testing the Web Page](#testing-the-web-page)
-- [Bonus Task: Configure HTTPS](#optional-configure-https)
+- [Bonus Task: Configure HTTPS](#bonus-task-configure-https)
+- [SSL Renewal via Cronjob](#ssl-renewal-via-cronjob)
 - [Public IP Address](#public-ip-address)
 - [Screenshot](#screenshot)
 
@@ -129,7 +130,13 @@ This project involves provisioning a Linux server on AWS, installing a web serve
 
 ---
 
-## Deliverables
+## SSL Renewal via Cron job
+1. ** Edit Cron Jobs**
+   ```bash
+   sudo cronjob -e
+2. **Add Renewal Cron job**
+   ```bash
+   0 0 * * * certbot renew --quiet && systemctl reload nginx
 
 ---
 
