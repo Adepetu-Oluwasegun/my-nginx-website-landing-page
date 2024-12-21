@@ -140,5 +140,4 @@ This project involves provisioning a Linux server on AWS, installing a web serve
 ---
 
 ## Screenshot
-![Landing Page](https://github.com/user-attachments/assets/6166a9d0-d631-4844-a639-cc1152c14e39)
-
+![Landing Page Screenshot](https://github.com/user-attachments/assets/fea8af91-3bd9-4ae7-9950-dc9c8adf80c6)
