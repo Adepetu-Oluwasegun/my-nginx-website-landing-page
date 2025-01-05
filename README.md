@@ -131,7 +131,7 @@ This project involves provisioning a Linux server on AWS, installing a web serve
 ---
 
 ## SSL Renewal via Cron job
-1. ** Edit Cron Jobs**
+1. **Edit Cron Jobs**
    ```bash
    sudo cronjob -e
 2. **Add Renewal Cron job**
@@ -141,7 +141,7 @@ This project involves provisioning a Linux server on AWS, installing a web serve
 ---
 
 ## Public IP Address
-`http://3.254.81.140`
+`http://54.229.90.2`
 `https://oluwasegun.me`
 
 ---
