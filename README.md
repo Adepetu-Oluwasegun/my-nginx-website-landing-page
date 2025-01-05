@@ -151,5 +151,3 @@ This project involves provisioning a Linux server on AWS, installing a web serve
 
 
 
-
-![Landing page with public ip](https://github.com/user-attachments/assets/41f3162e-6cb3-4f8f-a27a-b6a0b9dfc9e2)
