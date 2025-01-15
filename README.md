@@ -131,10 +131,10 @@ This project involves provisioning a Linux server on AWS, installing a web serve
 ---
 
 ## SSL Renewal via Cron tab
-1. **Edit Cron tab**
+1. **Edit Cron job**
    ```bash
-   sudo cronjob -e
-2. **Add Renewal Cron tab**
+   sudo crontab -e
+2. **Add Renewal Cron job**
    ```bash
    0 0 * * * certbot renew --quiet && systemctl reload nginx
 
