@@ -130,18 +130,18 @@ This project involves provisioning a Linux server on AWS, installing a web serve
 
 ---
 
-## SSL Renewal via Cron job
-1. **Edit Cron Jobs**
+## SSL Renewal via Cron tab
+1. **Edit Cron tab**
    ```bash
    sudo cronjob -e
-2. **Add Renewal Cron job**
+2. **Add Renewal Cron tab**
    ```bash
    0 0 * * * certbot renew --quiet && systemctl reload nginx
 
 ---
 
 ## Public IP Address
-`http://54.229.90.2`
+`http://3.250.82.218/`
 `https://oluwasegun.me`
 
 ---
